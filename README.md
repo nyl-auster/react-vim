@@ -4,10 +4,17 @@ ready to use vim configuration for React.
 
 Features :
 
-* use Prettier with default formatting
 * JSX syntaxic coloration
+* use Prettier with default formatting
 * run Prettier automatically on save
 * OceanixNext colorscheme by default
+* NERDTree file explorer
+* mouse support
+
+# Requirements
+
+npm
+git
 
 # INSTALL
 
@@ -20,4 +27,3 @@ ln -s react-vim .vim
 :PlugInstall
 # ... to install Plugins
 ```
-

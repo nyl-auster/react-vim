@@ -7,6 +7,7 @@ Plug 'pangloss/vim-javascript'
 Plug 'mhartington/oceanic-next'
 "Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 
 " Initialize plugin system
 call plug#end()
