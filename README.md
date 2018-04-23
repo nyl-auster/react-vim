@@ -4,10 +4,10 @@ ready to use vim configuration for React.
 
 Features :
 
-use Prettier with default formatting
-JSX syntaxic coloration
-run Prettier automatically on save
-OceanixNext colorscheme by default
+* use Prettier with default formatting
+* JSX syntaxic coloration
+* run Prettier automatically on save
+* OceanixNext colorscheme by default
 
 # INSTALL
 
