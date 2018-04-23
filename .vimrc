@@ -1,11 +1,21 @@
-execute pathogen#infect()
+" Specify a directory for plugins "
+call plug#begin('~/.vim/plugged')
+
+" Make sure you use single quotes
+Plug 'mxw/vim-jsx'
+Plug 'pangloss/vim-javascript'
+Plug 'mhartington/oceanic-next'
+
+" Initialize plugin system
+call plug#end()
+
 syntax on
 filetype plugin indent on
 syntax enable
+colorscheme OceanicNext
 
 " for vim 7
 set t_Co=256
-colorscheme monokai
 set number
 set noswapfile
 

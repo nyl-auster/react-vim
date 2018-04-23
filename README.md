@@ -1,18 +1,23 @@
 # REACT-VIM
 
-A ready to use vim configuration for React.
+ready to use vim configuration for React.
 
 Features :
 
-* use Prettier with default formatting
-* JSX syntaxic coloration
-* run Prettier automatically on save
+use Prettier with default formatting
+JSX syntaxic coloration
+run Prettier automatically on save
+OceanixNext colorscheme by default
 
-## installation
+# INSTALL
 
 ```
 cd ~
-git@github.com:nyl-auster/react-vim.git
-ln -s vim-react/.vimrc .vimrc
-ln -s vim-react .vim
+git clone git@github.com:nyl-auster/react-vim.git
+ln -s react-vim/.vimrc .vimrc
+ln -s react-vim .vim
+# now open vim and run :
+:PlugInstall
+# ... to install Plugins
 ```
+
