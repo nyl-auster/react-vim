@@ -7,6 +7,7 @@ syntax enable
 set t_Co=256
 colorscheme monokai
 set number
+set noswapfile
 
 " for vim 8
 if (has("termguicolors"))
