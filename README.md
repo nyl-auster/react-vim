@@ -10,5 +10,9 @@ Features :
 
 ## installation
 
-use this directory as your .vim
-use the .vimrc as your vimrc files
+```
+cd ~
+git@github.com:nyl-auster/react-vim.git
+ln -s vim-react/.vimrc .vimrc
+ln -s vim-react .vim
+```
