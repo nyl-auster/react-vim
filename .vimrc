@@ -5,15 +5,19 @@ call plug#begin('~/.vim/plugged')
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'mhartington/oceanic-next'
-Plug 'ryanoasis/vim-devicons'
+"Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
 
 " Initialize plugin system
 call plug#end()
 
+set encoding=UTF-8
+set mouse=a
 syntax on
 filetype plugin indent on
 syntax enable
+let g:oceanic_next_terminal_bold = 1
+let g:oceanic_next_terminal_italic = 1
 colorscheme OceanicNext
 
 " for vim 7
