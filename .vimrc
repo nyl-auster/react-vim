@@ -5,6 +5,8 @@ call plug#begin('~/.vim/plugged')
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'mhartington/oceanic-next'
+Plug 'ryanoasis/vim-devicons'
+Plug 'scrooloose/nerdtree'
 
 " Initialize plugin system
 call plug#end()
