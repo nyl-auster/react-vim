@@ -11,7 +11,7 @@ Features :
 
 # INSTALL
 
-```
+```sh
 cd ~
 git clone git@github.com:nyl-auster/react-vim.git
 ln -s react-vim/.vimrc .vimrc
