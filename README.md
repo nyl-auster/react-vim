@@ -4,11 +4,12 @@ ready to use vim configuration for React.
 
 Features :
 
-* JSX syntaxic coloration
-* use Prettier with default formatting
+* JSX syntaxic coloration : https://github.com/mxw/vim-jsx
+* use Prettier with default formatting: https://github.com/prettier/vim-prettier
 * run Prettier automatically on save
-* OceanixNext colorscheme by default
-* NERDTree file explorer
+* awesome react snippets : https://github.com/epilande/vim-react-snippets
+* OceanixNext colorscheme by defaulta: https://github.com/mhartington/oceanic-next
+* NERDTree file explorer : https://github.com/scrooloose/nerdtree
 * mouse support
 
 # Requirements

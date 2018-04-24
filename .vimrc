@@ -2,12 +2,14 @@
 call plug#begin('~/.vim/plugged')
 
 " Make sure you use single quotes
+"Plug 'ryanoasis/vim-devicons'
 Plug 'mxw/vim-jsx'
 Plug 'pangloss/vim-javascript'
 Plug 'mhartington/oceanic-next'
-"Plug 'ryanoasis/vim-devicons'
 Plug 'scrooloose/nerdtree'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+Plug 'epilande/vim-react-snippets'
+Plug 'SirVer/ultisnips'
 
 " Initialize plugin system
 call plug#end()
