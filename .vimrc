@@ -35,15 +35,26 @@ endif
 set tabstop=2
 set shiftwidth=2
 
+" ================
+" NERDTree
+" ================
+
+" toggle NERDTree with ctrl + n
+map <C-n> :NERDTreeToggle<CR>
+
 "vim-jsx
 let g:jsx_ext_required = 0
+" display beginning tags with the same color as closing tag
 hi link xmlEndTag xmlTag
+
+" ================
+" PRETTIER 
+" ================
 
 " auto-format with Prettier on save
 let g:prettier#autoformat = 0
 autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue Prettier
 
-" PRETTIER DEFAULT CONFIG : see
 " https://github.com/prettier/vim-prettier#overwrite-default-prettier-configuration
 " max line length that prettier will wrap on
 " Prettier default: 80
