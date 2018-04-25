@@ -10,7 +10,7 @@ Plug 'scrooloose/nerdtree'
 Plug 'prettier/vim-prettier', { 'do': 'npm install' }
 Plug 'epilande/vim-react-snippets'
 Plug 'SirVer/ultisnips'
-
+Plug 'kshenoy/vim-signature'
 " Initialize plugin system
 call plug#end()
 
@@ -19,8 +19,8 @@ set mouse=a
 syntax on
 filetype plugin indent on
 syntax enable
-let g:oceanic_next_terminal_bold = 1
-let g:oceanic_next_terminal_italic = 1
+"let g:oceanic_next_terminal_bold = 1
+"let g:oceanic_next_terminal_italic = 1
 colorscheme OceanicNext
 
 " for vim 7
